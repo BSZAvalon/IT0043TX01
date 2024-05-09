@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <center>
+    <form name="Pokedex:" action="login.php">
+        <label for="nd">National Dex: </label>
+        <input type="number" min="0" id="nd" name="National Dex"> <br>
+
+        <input type="radio" name="Generation" id="g1">
+        <label for="g1">Generation 1</label>
+        <input type="radio" name="Generation" id="g2">
+        <label for="g2">Generation 2</label>
+        <input type="radio" name="Generation" id="g3">
+        <label for="g3">Generation 3</label>
+        <input type="radio" name="Generation" id="g4">
+        <label for="g4">Generation 4</label>
+        <input type="radio" name="Generation" id="g5">
+        <label for="g5">Generation 5</label>
+        <input type="radio" name="Generation" id="g6">
+        <label for="g6">Generation 6</label>
+        <input type="radio" name="Generation" id="g7">
+        <label for="g7">Generation 7</label>
+        <input type="radio" name="Generation" id="g8">
+        <label for="g8">Generation 8</label>
+        <input type="radio" name="Generation" id="g9">
+        <label for="g9">Generation 9</label>
+
+        <br><br><label for="pk">Pokemon Name: </label>
+        <input type="text" min="0" id="pk" name="Pokemon Name"> <br><br>
+
+        Image: <input type="file" name="image: "><br><br>
+        <label for="type1">Type 1: </label>
+        <input type="text" min="0" id="type1" name="type1">
+        <label for="type2">Type 2: </label>
+        <input type="text" min="0" id="type2" name="type2"> <br> <br>
+        <label for="ef">Evolve From: </label>
+        <input type="text" min="0" id="ef" name="ef">
+        <label for="et">Evolve to: </label>
+        <input type="text" min="0" id="et" name="et"><br><br>
+        <label for="Nickname">Nickname: </label>
+        <input type="text" min="0" id="Nickname" name="Nickname"><br><br>
+
+        Birthday: <input type="date" name="Birthday"><br><br>
+        <button type="button">Submit</button><br><br>
+
+        <table border="1">
+            <tr>
+                <th>National Dex
+                <th>Generation
+                <th>Pokemon Name</th>
+                <th>Image</th>
+                <th>Type 1</th><th>Type 2</th>th>
+                <th>Evole From</th>
+                <th>Evolve To</th>
+                <th>Nickname</th>
+                <th>Birthday</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Generation Z</td>
+                <td></td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/1/1e/0306Aggron.png" width="250px" height="250px">
+                <td colspan="1" style="background-color:skyblue;">Steel</td>
+                <td colspan="1" style="background-color:burlywood;">rock</td>
+                <td>lairon</td>
+                <td>-</td>
+                <td>Armored Core</td>
+                <td>2001-4-23</td>
+            </tr>
+
+            <tr>
+                <td>0245</td>
+                <td>Generation 2</td>
+                <td>Suicune</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/d/dc/0245Suicune.png/250px-0245Suicune.png" width="250px" height="250px">
+                <td colspan="2" style="background-color:lightskyblue;">water</td>
+                <td>-</td>
+                <td>None</td>
+                <td>Aqua</td>
+                <td>1800-9-19</td>
+            </tr>
+            <tr>
+                <td>025</td>
+                <td>Generation 1</td>
+                <td>Pikachu</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/4/4a/0025Pikachu.png/600px-0025Pikachu.png" width="250px" height="250px">
+                <td colspan="2" style="background-color:yellow;">Electric</td>
+                <td>-</td>
+                <td>Raichu</td>
+                <td>Electro Rat</td>
+                <td>1910-1-28</td>
+            </tr>
+            
+            <tr>
+                <td>024</td>
+                <td>Generation 1</td>
+                <td>Arbok</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/5/51/0024Arbok.png/600px-0024Arbok.png" width="250px" height="250px">
+                <td colspan="2" style="background-color:violet;">Poison</td>
+                <td>Ekens</td>
+                <td>-</td>
+                <td>Serpens</td>
+                <td>1960-2-25</td>
+            </tr>
+
+            <tr>
+                <td>0306</td>
+                <td>Generation 3</td>
+                <td>Aggron</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/1/1e/0306Aggron.png" width="250px" height="250px">
+                <td colspan="1" style="background-color:skyblue;">Steel</td>
+                <td colspan="1" style="background-color:burlywood;">rock</td>
+                <td>lairon</td>
+                <td>-</td>
+                <td>Armored Core</td>
+                <td>2001-4-23</td>
+            </tr>
+            
+            <tr>
+                <td>0403</td>
+                <td>Generation 4</td>
+                <td>shinx</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/5/58/0403Shinx.png/250px-0403Shinx.png" width="250px" height="250px">
+                <td colspan="2" style="background-color:yellow;">Electric</td>
+                <td>-</td>
+                <td>Luxio</td>
+                <td>Maverick</td>
+                <td>1986-5-16</td>
+            </tr>
+
+            <tr>
+                <td>0663</td>
+                <td>Generation 6</td>
+                <td>TalonFlame</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/1/12/0663Talonflame.png/600px-0663Talonflame.png" width="250px" height="250px">
+                <td colspan="1" style="background-color:lightcoral;">Fire</td>
+                <td colspan="1" style="background-color:gray;">Flying</td>
+                <td>Fletchinder</td>
+                <td>-</td>
+                <td>Crimson</td>
+                <td>1997-5-16</td>
+            </tr>
+
+            <tr>
+                <td>1006</td>
+                <td>Generation 9</td>
+                <td>Iron Valiant</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/2/25/1006Iron_Valiant.png/250px-1006Iron_Valiant.png" width="250px" height="250px">
+                <td colspan="1" style="background-color:lightcoral;">fairy</td>
+                <td colspan="1" style="background-color:orange;">Fighting</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Monarch</td>
+                <td>2002-1-14</td>
+            </tr>
+
+            <tr>
+                <td>0791</td>
+                <td>Generation 7</td>
+                <td>Solgaleo</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/8/8c/0791Solgaleo.png/250px-0791Solgaleo.png" width="250px" height="250px">
+                <td colspan="1" style="background-color:rgb(240, 176, 176);">Psychic</td>
+                <td colspan="1" style="background-color:skyblue;">Steel</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Leo</td>
+                <td>2000-12-4</td>
+            </tr>
+
+            <tr>
+                <td>0143</td>
+                <td>Generation 1</td>
+                <td>snorlax</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/3/3f/0143Snorlax.png/250px-0143Snorlax.png">
+                <td colspan="2" style="background-color:rgb(226, 226, 226);">normal</td>
+                <td>munchlax</td>
+                <td>-</td>
+                <td>Gorlak</td>
+                <td>2005-5-16</td>
+            </tr>
+
+        </table>
+
+
+    </form>
+</center>
+</body>
+</html>
