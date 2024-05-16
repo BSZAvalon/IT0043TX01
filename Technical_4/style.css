@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    text-align : center;
+    font-family: "Poppins";
+    background-image:url(https://static.vecteezy.com/system/resources/previews/004/708/960/original/abstract-green-background-green-and-white-simple-and-clean-background-vector.jpg); 
+    background-size: cover;
+}
+
+h1{
+    color: green;
+    font-size: 750;
+    margin-top: auto;
+}
+
+h2{
+    color: green;
+    font-size: 670;
+}
+
+p{
+    color: black;
+    font-size: 652;
+    font-weight: bold;
+}
+
+title{
+    color: green;
+}
+
