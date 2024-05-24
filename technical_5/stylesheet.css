@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('wallpaper.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    width: 90%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.card{
+    width: 300px;
+    height: 550px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: aliceblue;
+}
+
+.image-container{
+    border: 5px solid black;
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+}
+
+.image-container img{
+    background-image: url(CRD\ BG.jpg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details{
+    padding: 15px;
+}
+
+.name{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.add{
+    background-color: rgba(49, 155, 241, 0.774);
+}
+
+.release{
+    background-color: rgb(245, 65, 65);
+}
+.type{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.desc{
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.grass{
+    text-align: center;
+    background-color: green;
+    color: aliceblue;
+    padding: 4x 8px;
+    border-radius: 4px 8px;
+    margin-right: 5px;
+}
+
+.poison{
+    text-align: center;
+    background-color: plum;
+    color: aliceblue;
+    padding: 4x 8px;
+    border-radius: 4px 8px;
+    margin-right: 5px;
+}
+
+.ghost{
+    text-align: center;
+    background-color: purple;
+    color: aliceblue;
+    padding: 4x 8px;
+    border-radius: 4px 8px;
+    margin-right: 5px;
+}
+
+.dragon{
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    padding: 4x 8px;
+    border-radius: 4px 8px;
+    margin-right: 5px;
+}
+
+.rock{
+    text-align: center;
+    background-color: #AFA981;
+    color: aliceblue;
+    padding: 4x 8px;
+    border-radius: 4px 8px;
+    margin-right: 5px;
+}
+
+.ground{
+    text-align: center;
+    background-color: brown;
+    color: aliceblue;
+    padding: 4x 8px;
+    border-radius: 4px 8px;
+    margin-right: 5px;
+}
+
+.Psychic{
+    text-align: center;
+    background-color: rgb(236, 78, 110);
+    color: aliceblue;
+    padding: 4x 8px;
+    border-radius: 4px 8px;
+    margin-right: 5px;
+}
+
+.fairy{
+    text-align: center;
+    background-color: palevioletred;
+    color: aliceblue;
+    padding: 4x 8px;
+    border-radius: 4px 8px;
+    margin-right: 5px;
+}
