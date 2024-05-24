@@ -87,6 +87,15 @@ body {
     cursor: pointer;
 }
 
+.normal{
+    text-align: center;
+    background-color: grey;
+    color: aliceblue;
+    padding: 4x 8px;
+    border-radius: 4px 8px;
+    margin-right: 5px;
+}
+
 .grass{
     text-align: center;
     background-color: green;
