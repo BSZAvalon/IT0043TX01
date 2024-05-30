@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('wallpaper.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    width: 90%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: 90%;
+    background-position: center;
+}
+
+.icon_grs{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: #82C274;
+}
+
+
+.icon_fr{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: orangered;
+}
+
+.icon_fry{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: #C1C2C1;
+}
+
+.icon_nrm{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: #ffbd06;
+}
+
+.icon_nrm2{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: #0759f1;
+}
+
+.icon_wtr{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: lightblue;
+}
+
+.icon_ps{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: purple;
+}
+
+.icon_lgt{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color:#FCD659 ;
+}
+
+.icon_fgt{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: #FFAC59;
+}
+
+.icon_bug{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: #B8C26A;
+}
+
+.icon_nrm3{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: #b4b4b2;
+}
+
+.icon_nrm4{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 10px solid #0e0b0b;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 60 2px 4px rgba(red, green, blue, alpha);
+    background-color: burlywood;
+}
+
